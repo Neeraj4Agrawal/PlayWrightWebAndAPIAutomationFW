@@ -2,7 +2,6 @@ import { LoginPage } from "../src/pages/LoginPage";
 import { HomePage } from "../src/pages/HomePage";
 import { test, expect } from "../src/fixtures/pagefixtures";
 
-
 let loginPage: LoginPage;
 let homePage: HomePage;
 

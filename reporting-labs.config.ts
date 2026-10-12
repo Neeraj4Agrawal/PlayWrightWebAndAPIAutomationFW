@@ -36,7 +36,7 @@ const config: ReportingLabsOptions = {
   // embedLimit: 2 * 1024 * 1024,                     // attachments bigger than this (bytes) are copied as files
   // embedVideos: false,                              // true = videos inside the HTML too (bigger file, no folder issues)
   // announce: true,                                  // print the report path after the run
-   open: 'always',                              // open the report in the browser: 'on-failure' | 'always' | 'never'; never in CI
+  open: "always", // open the report in the browser: 'on-failure' | 'always' | 'never'; never in CI
   // warnMissingMeta: true,                           // after the run, list tests that have no meta() in the console
 
   // ── Test details ─────────────────────────────────────────────────────────────
@@ -65,8 +65,8 @@ const config: ReportingLabsOptions = {
   // ── Run history and trend ────────────────────────────────────────────────────
   history: {
     enabled: true,
-    file: 'reporting-labs.history.json',           // kept next to playwright.config; commit it or cache it in CI
-    keep: 30,                                      // runs to remember
+    file: "reporting-labs.history.json", // kept next to playwright.config; commit it or cache it in CI
+    keep: 30, // runs to remember
   },
 
   // ── Widgets on the overview (hide what you do not need) ──────────────────────

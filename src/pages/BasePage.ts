@@ -56,10 +56,10 @@ export class BasePage {
     return await this.page.waitForLoadState("load");
   }
 
-  async takeScreenShot(name:string){
-    return this.page.screenshot({
-        fullPage:true,
-        path:`report/screenshot/${name}.png`
-    })
+  async takeScreenShot(name: string) {
+    return await this.page.screenshot({
+      fullPage: true,
+      path: `report/screenshot/${name}.png`,
+    });
   }
 }

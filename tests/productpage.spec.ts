@@ -52,7 +52,6 @@ test("Verify the product Information", async ({
   expect(actualproductInfoMap.get("ProductImagesCount")).toBe(4);
 });
 
-
 // common fratures test of pages
 test("App logo visibility on login page", async ({ basePage }) => {
   await basePage.isLogoVsisble();

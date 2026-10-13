@@ -27,7 +27,7 @@ test("@regression Login page title validation test", async ({ page }) => {
   expect(pageTitle).toBe("Account Login");
 });
 
-test("@regressionforgot password link exist test", async ({ page }) => {
+test("@regression forgot password link exist test", async ({ page }) => {
   meta({
     priority: "P2",
     severity: "Cretical",

@@ -40,7 +40,7 @@ test("@regression forgot password link exist test", async ({ page }) => {
   expect(await loginPage.isForgottenPasswordLinkExist()).toBeTruthy();
 });
 
-test("@regression User is able to login to page", async ({ page }) => {
+test("User is able to login to page", async ({ page }) => {
   meta({
     priority: "P2",
     severity: "Cretical",

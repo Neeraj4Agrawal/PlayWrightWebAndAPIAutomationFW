@@ -36,7 +36,7 @@ test(" @smoke App logo visibility on login page", async ({ basePage }) => {
   await basePage.isLogoVsisble();
 });
 
-test(" @smokeSearch box visibility on login page", async ({ basePage }) => {
+test(" @smoke Search box visibility on login page", async ({ basePage }) => {
   await basePage.isSearchBoxVisible();
 });
 

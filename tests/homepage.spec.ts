@@ -32,18 +32,18 @@ test("Homre page header validation test", async () => {
 });
 
 // common fratures test of pages
-test("App logo visibility on login page", async ({ basePage }) => {
+test(" @smoke App logo visibility on login page", async ({ basePage }) => {
   await basePage.isLogoVsisble();
 });
 
-test("Search box visibility on login page", async ({ basePage }) => {
+test(" @smokeSearch box visibility on login page", async ({ basePage }) => {
   await basePage.isSearchBoxVisible();
 });
 
-test("cart visibility on login page", async ({ basePage }) => {
+test("@smoke cart visibility on login page", async ({ basePage }) => {
   await basePage.isCartButtonVisible();
 });
 
-test("Footers exist on login page", async ({ basePage }) => {
+test("@smoke Footers exist on login page", async ({ basePage }) => {
   expect(await basePage.getPageFooterCount()).toBe(16);
 });

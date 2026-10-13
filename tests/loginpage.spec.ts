@@ -12,7 +12,7 @@ test.afterEach(async ({ page }) => {
   await page.pause();
 });
 
-test("Login page title validation test", async ({ page }) => {
+test("@regression Login page title validation test", async ({ page }) => {
   meta({
     priority: "P2",
     severity: "Cretical",
@@ -27,7 +27,7 @@ test("Login page title validation test", async ({ page }) => {
   expect(pageTitle).toBe("Account Login");
 });
 
-test("forgot password link exist test", async ({ page }) => {
+test("@regressionforgot password link exist test", async ({ page }) => {
   meta({
     priority: "P2",
     severity: "Cretical",
@@ -40,7 +40,7 @@ test("forgot password link exist test", async ({ page }) => {
   expect(await loginPage.isForgottenPasswordLinkExist()).toBeTruthy();
 });
 
-test("User is able to login to page", async ({ page }) => {
+test("@regression User is able to login to page", async ({ page }) => {
   meta({
     priority: "P2",
     severity: "Cretical",

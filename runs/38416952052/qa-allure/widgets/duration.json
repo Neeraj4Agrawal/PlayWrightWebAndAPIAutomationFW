@@ -1,0 +1,1 @@
+[{"uid":"69b74c37bbadfc76","name":"@regression forgot password link exist test","time":{"start":1791903189194,"stop":1791903191927,"duration":2733},"status":"passed","severity":"normal"},{"uid":"1860410f178b2a17","name":"@regression Login page title validation test","time":{"start":1791903189174,"stop":1791903191662,"duration":2488},"status":"passed","severity":"normal"}]

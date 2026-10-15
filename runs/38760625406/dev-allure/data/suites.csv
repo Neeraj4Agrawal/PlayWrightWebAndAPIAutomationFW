@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3198","@smoke Footers exist on login page","chromium","2026-10-15","passed","2026-10-15","","homepage.spec.ts","",""
+"","3447","@smoke Search box visibility on login page","chromium","2026-10-15","passed","2026-10-15","","homepage.spec.ts","",""
+"","3374","@smoke cart visibility on login page","chromium","2026-10-15","passed","2026-10-15","","homepage.spec.ts","",""
+"","3411","@smoke App logo visibility on login page","chromium","2026-10-15","passed","2026-10-15","","homepage.spec.ts","",""
